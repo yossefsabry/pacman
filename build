@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+go build
+./pacman-go
