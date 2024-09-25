@@ -38,7 +38,7 @@ func LoadMaze(file string) error {
 	return nil
 }
 
-
+// PrintScreen: for print the screen every frame rate
 func PrintScreen() {
 	simpleansi.ClearScreen()
 	for _, line := range maze {
